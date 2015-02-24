@@ -1,5 +1,6 @@
-# testing-rootkis
-create a makefile 
+Some info about installing a module in linux kernel
+
+First create a makefile as below
 
 Obj-m := testRootkit.o
 KERNEL_DIR = /lib/modules/$(shell uname -r)/build
